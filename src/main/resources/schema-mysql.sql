@@ -1,0 +1,2 @@
+CREATE TABLE IF NOT EXISTS USER(id Int PRIMARY KEY, username varchar(30), password varchar(50), email varchar(50), role VARCHAR(30));
+INSERT INTO USER VALUES (1, 'testapp', 'password', 'test@test.com','ROLE_USER');

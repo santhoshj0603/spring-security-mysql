@@ -1,0 +1,11 @@
+spring:
+   application:
+      name: Demo
+   cloud:
+      config:
+         #uri: http://localhost:8081
+         uri: https://configserver1.cfapps.io
+management:
+   security:
+      enabled: false
+         

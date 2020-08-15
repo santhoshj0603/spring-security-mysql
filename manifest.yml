@@ -1,0 +1,12 @@
+---
+applications:
+- name: DemoClient
+  path: target/DemoClient-0.0.1-SNAPSHOT.jar
+  domain: cfapps.io
+  memory: 800m
+  instances: 1
+  services:
+  - CloudDatabase
+  - CloudRegistry
+  #env:
+     #JAVA_OPTS: '-Xms64m -Xmx512m -XX:ReservedCodeCacheSize=240M -XX:MaxDirectMemorySize=10M -XX:MaxMetaspaceSize=23246K'
